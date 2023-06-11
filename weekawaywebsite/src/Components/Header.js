@@ -13,6 +13,8 @@ const Header = () => {
                 <div className='hidden md:flex items-center px-3'>
                     <AiOutlineClockCircle size={30} className='mr-1' />
                     <p className=' text-purple-950 text-xl mr-1'>9AM - 5AM</p>
+
+                    
                 </div>
 
                 <div className='hidden md:flex items-center px-3'>
