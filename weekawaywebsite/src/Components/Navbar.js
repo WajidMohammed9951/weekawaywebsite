@@ -26,6 +26,7 @@ const Navbar = () => {
                 <a href='#deals' >Deals</a>
             </li>
             <li className='px-4'>
+                
                 <a href='#contact' >Contact</a>
             </li>
         </ul>
