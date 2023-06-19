@@ -13,18 +13,18 @@ import {
 
 const Navbar = () => {
   return (
-    <div className=''>
-        <ul className='mx-2'>
-            <li>
+    <div className=' w-full min-h-[50px] flex justify-between items-center absolute text-white bg-gray-700/80'>
+        <ul className='hidden sm:flex text-lg'>
+            <li className='px-4'>
                 <a href='/' >Home</a>
             </li>
-            <li>
+            <li className='px-4'>
                 <a href='#gallery' >Gallery</a>
             </li>
-            <li>
+            <li className='px-4'>
                 <a href='#deals' >Deals</a>
             </li>
-            <li>
+            <li className='px-4'>
                 <a href='#contact' >Contact</a>
             </li>
         </ul>
@@ -36,20 +36,20 @@ const Navbar = () => {
         </div>
 
         <div>
-            <FaBars className='mx-2'/>
+            <FaBars size={20} className='mr-4 cursor-pointer' />
         </div>
         <div>
-        <ul className='mx-2'>
-            <li>
+        <ul className='h-full w-full text-center pt-12 px-4'>
+            <li className='text-2xl py-8'>
                 <a href='/' >Home</a>
             </li>
-            <li>
+            <li className='text-2xl py-8'>
                 <a href='#gallery' >Gallery</a>
             </li>
-            <li>
+            <li className='text-2xl py-8'>
                 <a href='#deals' >Deals</a>
             </li>
-            <li>
+            <li className='text-2xl py-8'>
                 <a href='#contact' >Contact</a>
             </li>
         </ul>
