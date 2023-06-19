@@ -20,6 +20,7 @@ const Navbar = () => {
             </li>
             <li className='px-4'>
                 <a href='#gallery' >Gallery</a>
+                
             </li>
             <li className='px-4'>
                 <a href='#deals' >Deals</a>
