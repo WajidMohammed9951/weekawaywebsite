@@ -9,7 +9,7 @@ const HeroSection = () => {
                 className='w-full h-full object-cover'
             />
             <div className='max-w-[1140px] m-auto'>
-                <div className=''>
+                <div className='absolute top-[40%] w-full md:[50%] flex flex-col text-white p-4'>
                     <h1>find your trip</h1>
                     <h2>with weekaway</h2>
 
