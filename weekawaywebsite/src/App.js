@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import Activities from "./Components/Activities";
+import Booking from "./Components/Booking";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Activities/>
+      <Booking/>
     </div>
   );
 }
