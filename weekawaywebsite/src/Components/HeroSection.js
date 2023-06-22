@@ -9,9 +9,10 @@ const HeroSection = () => {
                 className='w-full h-full object-cover'
             />
             <div className='max-w-[1140px] m-auto'>
-                <div className='absolute top-[40%] w-full md:[50%] flex flex-col text-white p-4'>
+                <div className='absolute top-[40%] w-full md:[50%] flex flex-col text-white p-4 '>
                     <h1 className='font-bold text-4xl'>Find your trip</h1>
                     <h2 className='text-4xl py-4 '>With weekaway</h2>
+                    
                     
                     <p>If you want ro travel over the world, weekaway can provide you suggestions on how you can plan your trips.It shows number of destinations where you want to travel across the world, It can provides all sources of images of destionations.You only need this weekaway app to choose your destionations.
                     </p>
